@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+int add(int a, int b)
+{
+	return a+b;
+}
 void swqp(int *a, int*b)
 {
 	int temp = *a;
@@ -10,5 +14,8 @@ void swqp(int *a, int*b)
 }
 int main() {
 	printf("hello.\n");
+	int a=3,b=2;
+	
+	printf("a+b=%d\n", add(a+b);
 	return 0;
 }
